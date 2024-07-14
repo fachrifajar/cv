@@ -93,5 +93,19 @@ export const RESUME_DATA = {
         href: "https://link-hub-v1.vercel.app/",
       },
     },
+    {
+      title: "fachri.me",
+      techStack: [
+        "Fullstack Developer",
+        "TypeScript",
+        "Next",
+      ],
+      description:
+        "Personal website and blog. Built with Next.js",
+      link: {
+        // label: "github.com",
+        href: "https://fachri-me.vercel.app/",
+      },
+    },
   ],
 } as const;
