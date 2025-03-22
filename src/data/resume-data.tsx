@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description:
-        "Utilized data visualization, Conducted statistical analysis, maintain quality of app. Technologies: Tableau, Postgres"
+        "Utilized data visualization, Conducted statistical analysis, maintain quality of app. Technologies: Tableau, Postgres",
     },
   ],
   skills: [
@@ -60,21 +60,24 @@ export const RESUME_DATA = {
     "TypeScript",
     "React/Next.js/Vue/Nuxt",
     "Node.js",
-    "SQL/NOSQL"
+    "SQL/NOSQL",
   ],
   projects: [
     {
       title: "SID",
-      techStack: [
-        "Frontend Developer",
-        "Javascript",
-        "React",
-      ],
-      description:
-        "Ads Manager for Facebook, Google, Tiktok",
+      techStack: ["Frontend Developer", "TypeScript", "React"],
+      description: "Ads Manager for Facebook, Google, Tiktok",
       link: {
         // label: "github.com",
         href: "https://sid.ethos.co.id/",
+      },
+    },
+    {
+      title: "Github Repo Explorer",
+      techStack: ["Frontend Developer", "Typescript", "Next"],
+      description: "Repo Explorer for Github",
+      link: {
+        href: "https://github-repo-explorer-alpha.vercel.app/",
       },
     },
     {
@@ -84,10 +87,9 @@ export const RESUME_DATA = {
         "TypeScript",
         "React",
         "Node.js",
-        "Firebase"
+        "Firebase",
       ],
-      description:
-        "Linktree Clone",
+      description: "Linktree Clone",
       link: {
         // label: "github.com",
         href: "https://link-hub-v1.vercel.app/",
@@ -95,13 +97,8 @@ export const RESUME_DATA = {
     },
     {
       title: "fachri.me",
-      techStack: [
-        "Fullstack Developer",
-        "TypeScript",
-        "Next",
-      ],
-      description:
-        "Personal website and blog. Built with Next.js",
+      techStack: ["Fullstack Developer", "TypeScript", "Next"],
+      description: "Personal website and blog. Built with Next.js",
       link: {
         // label: "github.com",
         href: "https://fachri-me.vercel.app/",
